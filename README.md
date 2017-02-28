@@ -22,6 +22,7 @@ In addition, this project will include:
 - [ ] Game controls
 - [ ] Nav links to Github, LinkedIn, Personal Website
 - [ ] Instructions section
+![wireframe](./wireframe.png)
 
 ### Architecture and Technologies
 This project will use the following technologies:
