@@ -1,3 +1,3 @@
 # JUMPING SIMBA
 
-development README.md go to: [here](./docs/README.md)
+development README.md [here](./docs/README.md)
