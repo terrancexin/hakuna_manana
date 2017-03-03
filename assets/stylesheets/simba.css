@@ -6,10 +6,18 @@ body {
   height: 100vh;
 }
 
+h1 {
+  font-family: sans-serif;
+  color: white;
+  text-shadow: 2px 2px orange;
+  font-size: 50px;
+  text-align: center;
+}
+
 #simba-canvas {
   display: flex;
   margin: auto;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   margin-top: 5%;
   border-radius: 10px;
 
