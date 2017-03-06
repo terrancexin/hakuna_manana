@@ -1,5 +1,5 @@
 module.exports = {
-  entry: "./lib/jumping_simba.js",
+  entry: "./lib/hakuna_manana.js",
   output: {
   	filename: "./lib/bundle.js"
   },
