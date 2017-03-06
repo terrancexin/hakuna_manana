@@ -35,3 +35,10 @@ p {
   color: green;
   font-weight: bold;
 }
+
+span {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  text-shadow: 1px 1px red;
+}
