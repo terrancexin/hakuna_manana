@@ -1,44 +1,110 @@
 body {
-  /*background-image: url("http://fanaru.com/the-lion-king/image/85723-the-lion-king-hakuna-matata.jpg");*/
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  height: 100vh;
+  position: relative;
+  background-color: #424F86;
 }
 
-.game-container {
-  display: flex;
-  flex-direction: column;
+.bg-box {
+  position: absolute;
+  left: -450px;
+  top: -200;
+  position: relative;
+  z-index: 1;
 }
 
-label {
-  font-family: sans-serif;
-  color: white;
-  text-shadow: 2px 2px orange;
+.title {
+  position: absolute;
+  top: 90px;
+  left: 775px;
   font-size: 50px;
-  text-align: center;
+  z-index: 10;
+  font-family: sans-serif;
+  color: orange;
+  text-shadow: 1px 1px lightgray;
+  min-width: 500px;
+}
+
+.description {
+  min-width: 500px;
+  font-size: 20px;
+  position: absolute;
+  top: 165px;
+  left: 800px;
+  font-family: sans-serif;
+  color: lightgray;
+  text-shadow: 2px 2px #424F86;
 }
 
 #simba-canvas {
-  display: flex;
-  margin: auto;
-  /*border: 1px solid blue;*/
-  margin-top: 5%;
-  border-radius: 10px;
+  position: absolute;
+  top: 212px;
+  left: 769px;
+  border-radius: 20px;
+  border: 1px solid lightgray;
+  box-shadow: 1px 1px 1px #888888;
 
 }
 
-p {
-  text-align: center;
-  font-size: 25px;
+.github > img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.github > img:hover {
+  background-color: orange;
+}
+.github {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 265px;
+  left: 1357px;
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+  cursor: pointer;
+}
+
+.source-label {
   font-family: sans-serif;
-  color: green;
+}
+
+.source-label:hover {
+  font-family: sans-serif;
+  color: orange;
+  cursor: pointer;
+}
+
+.www > img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.www > img:hover {
+  background-color: rgb(27, 68, 245);
+}
+.www {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 346px;
+  left: 1249px;
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+  cursor: pointer;
   font-weight: bold;
 }
 
-span {
-  text-align: center;
-  color: white;
+.www-label {
   font-family: sans-serif;
-  text-shadow: 1px 1px red;
+}
+
+.www-label:hover {
+  font-family: sans-serif;
+  color: rgb(27, 68, 245);
+  cursor: pointer;
 }

@@ -5,19 +5,24 @@
     <title>Hakuna Mañana</title>
     <link href="./assets/stylesheets/style.css" rel="stylesheet">
   </head>
-  <body background="./assets/images/body_bg.jpg">
-
-    <div class='game-container'>
-      <label>Hakuna Mañana</label>
-      <span>Press Enter to play, Spacebar to jump.</span>
-      <canvas id='simba-canvas' width="500" height="600">
+  <body>
+    <div class="bg-box"><img src="./assets/images/gameboy_advance.jpg" alt="background"/>
+      <label class='title'>Hakuna Mañana</label>
+      <label class='description'>Press Enter to play, Space to jump.</label>
+      <canvas id='simba-canvas' width="380" height="320">
         Canvas not supported by this browser.
       </canvas>
+      <a class='github' href="https://github.com/terrancexin/hakuna_manana" target="_blank">
+        <img class'github-pic' src='./assets/images/github.png' alt='github-icon'/>
+        <label class='source-label'>Source</label>
+      </a>
+
+      <a class='www' href="http://www.terrancexin.com/" target="_blank">
+        <img class'www-pic' src='./assets/images/www.png' alt='www-icon'/>
+        <label class='www-label'>T.Xin</label>
+      </a>
     </div>
 
-
-    <!-- <a href="https://github.com/terrancexin/jumpingSimba" target="_blank">GitHub</a>
-    <a href="http://www.terrancexin.com/" target="_blank">Made by Terrance Xin</a> -->
     <script src='./lib/bundle.js'></script>
   </body>
 </html>
