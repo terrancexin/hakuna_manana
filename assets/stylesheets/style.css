@@ -108,3 +108,27 @@ body {
   color: rgb(27, 68, 245);
   cursor: pointer;
 }
+
+.mute {
+  position: absolute;
+  top: 508px;
+  left: 673px;
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.mute-label {
+  position: absolute;
+  top: 580px;
+  left: 898px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  font-family: sans-serif;
+  color: lightgray;
+}
