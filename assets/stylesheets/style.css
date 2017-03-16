@@ -4,12 +4,21 @@ body {
 }
 
 .bg-box {
+  margin: 0 auto;
+  /*position: absolute;
+  left: -450px;
+  top: -200;
+  position: relative;
+  z-index: 1;*/
+}
+
+/*@media (max-width: 500px) {
   position: absolute;
   left: -450px;
   top: -200;
   position: relative;
   z-index: 1;
-}
+}*/
 
 .title {
   position: absolute;
