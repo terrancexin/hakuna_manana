@@ -1,143 +1,80 @@
-body {
-  position: relative;
-  background-color: #424F86;
+html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, h3, h4, h5 p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background-color: #FEDE37;
+  font-family: sans-serif;
 }
 
-.bg-box {
-  margin: 0 auto;
-  /*position: absolute;
-  left: -450px;
-  top: -200;
-  position: relative;
-  z-index: 1;*/
+button{
+  cursor: pointer;
 }
 
-/*@media (max-width: 500px) {
-  position: absolute;
-  left: -450px;
-  top: -200;
-  position: relative;
-  z-index: 1;
-}*/
+footer {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .title {
-  position: absolute;
-  top: 90px;
-  left: 775px;
-  font-size: 50px;
-  z-index: 10;
-  font-family: sans-serif;
-  color: orange;
-  text-shadow: 1px 1px lightgray;
-  min-width: 500px;
+  width: 100vw;
+  margin: 20px 0;
 }
 
-.description {
-  min-width: 500px;
-  font-size: 20px;
-  position: absolute;
-  top: 165px;
-  left: 800px;
-  font-family: sans-serif;
-  color: lightgray;
-  text-shadow: 2px 2px #424F86;
-}
-
-#simba-canvas {
-  position: absolute;
-  top: 212px;
-  left: 769px;
-  border-radius: 20px;
-  border: 1px solid lightgray;
-  box-shadow: 1px 1px 1px #888888;
-
-}
-
-.github > img {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-}
-
-.github > img:hover {
-  background-color: orange;
-}
-.github {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: absolute;
-  top: 265px;
-  left: 1357px;
-  text-decoration: none;
-  font-size: 12px;
-  color: black;
-  cursor: pointer;
-}
-
-.source-label {
-  font-family: sans-serif;
-}
-
-.source-label:hover {
-  font-family: sans-serif;
-  color: orange;
-  cursor: pointer;
-}
-
-.www > img {
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-}
-
-.www > img:hover {
-  background-color: rgb(27, 68, 245);
-}
-.www {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: absolute;
-  top: 346px;
-  left: 1249px;
-  text-decoration: none;
-  font-size: 12px;
-  color: black;
-  cursor: pointer;
+.copyright {
+  margin-bottom: 30px;
   font-weight: bold;
 }
 
-.www-label {
-  font-family: sans-serif;
+.footer-icons > a {
+  margin: 0 2px;
+  color: black;
 }
 
-.www-label:hover {
-  font-family: sans-serif;
-  color: rgb(27, 68, 245);
-  cursor: pointer;
+.footer-icons > a:hover {
+  color: red;
+}
+
+.bg-box {
+  background-image: url(body_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 550px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#simba-canvas {
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.instruction {
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 18;
+  border: 1px solid lightgray;
 }
 
 .mute {
-  position: absolute;
-  top: 508px;
-  left: 673px;
-  text-decoration: none;
-  font-size: 12px;
-  color: black;
-  cursor: pointer;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-}
-
-.mute-label {
-  position: absolute;
-  top: 580px;
-  left: 898px;
-  text-decoration: none;
-  font-size: 15px;
-  color: black;
-  font-family: sans-serif;
-  color: lightgray;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 14px;
+  background-color: rgb(241, 120, 88);
+  color: #FEDE37;
+  border: 1px solid lightgray;
 }

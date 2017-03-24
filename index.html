@@ -4,29 +4,30 @@
     <meta charset="utf-8">
     <title>Hakuna Mañana</title>
     <link href="./assets/stylesheets/style.css" rel="stylesheet">
-    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <script src="https://use.fontawesome.com/111619368a.js"></script>
   </head>
   <body>
-    <div class="bg-box"><img src="./assets/images/gameboy_advance.jpg" alt="background"/>
-      <label class='title'>Hakuna Mañana</label>
-      <label class='description'>Press Enter to play, Space to jump.</label>
-      <canvas id='simba-canvas' width="380" height="320">
-        Canvas not supported by this browser.
-      </canvas>
-      <a class='github' href="https://github.com/terrancexin/hakuna_manana" target="_blank">
-        <img class='github-pic' src='./assets/images/github.png' alt='github-icon'/>
-        <label class='source-label'>Source</label>
-      </a>
+    <img class='title' src="assets/images/title.png" alt="title"/>
 
-      <a class='www' href="https://www.terrancexin.com/" target="_blank">
-        <img class='www-pic' src='./assets/images/www.png' alt='www-icon'/>
-        <label class='www-label'>T.Xin</label>
-      </a>
-
-      <img class='mute' src='./assets/images/mute.png' alt='mute'/>
-      <label class='mute-label'>Press 'm' to mute</label>
+    <div class="bg-box">
+        <label class='instruction'>Press Enter to play, Space to jump</label>
+        <canvas id='simba-canvas' width="380" height="320">
+          Simba not supported by this browser.
+        </canvas>
+        <label class='mute'>Press 'm' to mute</label>
     </div>
 
     <script src='./lib/bundle.js'></script>
   </body>
+
+  <footer>
+    <div class='copyright'>&copy; 2017 Made by Terrance Xin</div>
+    <div class="footer-icons">
+      <a href="https://www.terrancexin.com" title="www" target="_blank"><i class="fa fa-globe"></i></a>
+      <a href="https://github.com/terrancexin" title="github" target="_blank"><i class="fa fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/terrancexin/" title="linkedin" target="_blank" ><i class="fa fa-linkedin"></i></i></a>
+      <a href="https://angel.co/terrancexin" title="angellist" target="_blank" ><i class="fa fa-angellist"></i></i></a>
+   </div>
+  </footer>
 </html>

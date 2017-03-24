@@ -1,0 +1,152 @@
+body {
+  background-color: #424F86;
+  border: 1px solid yellow;
+  position: relative;
+  width: 100%;
+}
+
+.bg-img {
+  border: 1px solid green;
+  /*width: 100%;*/
+  /*width: 500px;*/
+  /*width: 0 auto;*/
+}
+
+.bg-box {
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid red;
+  /*position: absolute;
+  left: -450px;
+  top: -200;
+  position: relative;
+  z-index: 1;*/
+}
+
+/*@media (max-width: 500px) {
+  position: absolute;
+  left: -450px;
+  top: -200;
+  position: relative;
+  z-index: 1;
+}*/
+
+.title {
+  position: absolute;
+  font-size: 50px;
+  z-index: 10;
+  font-family: sans-serif;
+  color: orange;
+  text-shadow: 1px 1px lightgray;
+  min-width: 500px;
+}
+
+.description {
+  min-width: 500px;
+  font-size: 20px;
+  position: absolute;
+  top: 165px;
+  left: 800px;
+  font-family: sans-serif;
+  color: lightgray;
+  text-shadow: 2px 2px #424F86;
+}
+
+#simba-canvas {
+  position: absolute;
+  top: 212px;
+  left: 769px;
+  border-radius: 20px;
+  border: 1px solid lightgray;
+  box-shadow: 1px 1px 1px #888888;
+
+}
+
+.github > img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.github > img:hover {
+  background-color: orange;
+}
+.github {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 265px;
+  left: 1357px;
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+  cursor: pointer;
+}
+
+.source-label {
+  font-family: sans-serif;
+}
+
+.source-label:hover {
+  font-family: sans-serif;
+  color: orange;
+  cursor: pointer;
+}
+
+.www > img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.www > img:hover {
+  background-color: rgb(27, 68, 245);
+}
+.www {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 346px;
+  left: 1249px;
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.www-label {
+  font-family: sans-serif;
+}
+
+.www-label:hover {
+  font-family: sans-serif;
+  color: rgb(27, 68, 245);
+  cursor: pointer;
+}
+
+.mute {
+  position: absolute;
+  top: 508px;
+  left: 673px;
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.mute-label {
+  position: absolute;
+  top: 580px;
+  left: 898px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  font-family: sans-serif;
+  color: lightgray;
+}
