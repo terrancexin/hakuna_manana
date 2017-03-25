@@ -26,7 +26,6 @@ footer {
 
 .title {
   width: 100vw;
-  /*margin: 20px 0;*/
 }
 
 .copyright {
@@ -48,11 +47,12 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   height: 550px;
-  border-radius: 10px;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  min-width: 450px;
 }
 
 #simba-canvas {
@@ -61,11 +61,18 @@ footer {
   margin-bottom: 20px;
 }
 
-.instruction {
+.instructions {
   border-radius: 5px;
-  margin-bottom: 20px;
-  padding: 10px;
-  font-size: 18;
+  width: 120px;
+  margin: 10px 0;
+  padding: 5px;
+  border: 1px solid lightgray;
+}
+
+.instruction_mute {
+  width: 100px;
+  border-radius: 5px;
+  padding: 5px;
   border: 1px solid lightgray;
 }
 

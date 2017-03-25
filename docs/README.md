@@ -1,7 +1,7 @@
-# Jumping Simba
+# Hakuna Manana
 
 ### Background
-Jumping Simba is an infinite platformer with Lion King themes. You play as Simba, jumping without any worries.
+Hakuna Manana is an infinite platformer with Lion King themes. You play as Simba, jumping without any worries.
 Simba must continue to run on platforms. A high score is given based on how far he goes before falling off the screen.
 
 ### Functionality & MVP  
