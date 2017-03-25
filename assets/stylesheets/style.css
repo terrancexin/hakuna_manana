@@ -77,11 +77,10 @@ footer {
 }
 
 .mute {
+  width: 30px;
   border-radius: 5px;
-  margin-top: 20px;
   padding: 5px;
-  font-size: 14px;
-  background-color: rgb(241, 120, 88);
-  color: #FEDE37;
   border: 1px solid lightgray;
+  margin-top: 10px;
+  cursor: pointer;
 }
