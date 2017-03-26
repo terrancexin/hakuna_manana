@@ -52,7 +52,7 @@ footer {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  min-width: 450px;
+  /*min-width: 450px;*/
 }
 
 #simba-canvas {
@@ -83,4 +83,10 @@ footer {
   border: 1px solid lightgray;
   margin-top: 10px;
   cursor: pointer;
+}
+
+@media (max-width: 400px){
+  #simba-canvas {
+    width: 350px;
+  }
 }
