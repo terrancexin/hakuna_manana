@@ -1,21 +1,21 @@
 # Hakuna Mañana
-### [LIVE]((https://www.terrancexin.com/hakuna_manana/)
+### [LIVE](https://www.terrancexin.com/hakuna_manana/)
 
 ##### "Hakuna" in Swahili means "there is not". "Mañana" in Spanish means "tomorrow".
-#### There is no tomorrow, play today.
+#### There is no tomorrow, play today!
 
 ![intro](./docs/simba_intro.gif)
 
 ## Background
-Hakuna Mañana is a platform jumper game. You play as Simba, jumping without any worries.
+Hakuna Mañana is a Lion King themed platform jumper game. You play as Simba, jumping without any worries.
 Simba must continuously land on platforms. A high score is given based on how far he goes before falling off the screen.
 
 ## Features & Implementation
 #### Game Logic
 * Creating new objects: Simba, Platform, Timon (inherits from MovingObject Class)
-* Updating simba positions based on its velocities
+* Updating Simba's positions based on its velocities
 * Handling collisions
-* Calculating timon collections
+* Calculating Timon collections
 
 #### Technologies Used
 * JavaScript
@@ -35,7 +35,7 @@ jumpPhysics(object) {
 ```
 
 #### Collision Detection
-The positions of Simba is checked against the positions of Platform for landing, in which x and y coordinates are calculated.
+The positions of Simba is checked against the positions of Platform for landing, in which both x and y coordinates are calculated.
 
 ```js
 checkPlatformCollision() {
