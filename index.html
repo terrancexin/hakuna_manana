@@ -12,12 +12,19 @@
     <img class='title' src="assets/images/title.png" alt="title"/>
 
     <div class="bg-box">
-        <img class='instructions' src='assets/images/instructions.png' alt='instructions' />
+        <img id="myBtn" class='instructions' src='assets/images/how_to_play.png' alt='instructions' />
         <canvas id='simba-canvas' width="450" height="370">
           Simba not supported by this browser.
         </canvas>
         <img class='instruction_mute' src='assets/images/instruction_mute.png' alt='instruction_mute' />
         <img class='mute' src='assets/images/mute.png' alt='instruction_mute' />
+    </div>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Some text in the Modal..</p>
+      </div>
     </div>
 
     <script src='./lib/bundle.js'></script>
