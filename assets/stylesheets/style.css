@@ -124,7 +124,17 @@ footer {
 
 @media (max-width: 400px) {
   #simba-canvas {
-    width: 350px;
+    width: 370px;
+  }
+
+  .instructions {
+    width: 140px;
+    margin: 40px 0;
+  }
+
+  .mute {
+    width: 25px;
+    margin-top: 40px;
   }
 
   .modal-content {
