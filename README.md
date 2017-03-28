@@ -4,7 +4,7 @@
 ##### "Hakuna" in Swahili means "there is not". "Mañana" in Spanish means "tomorrow".
 #### There is no tomorrow, play today!
 
-![intro](./docs/simba_intro.gif)
+![intro](./assets/images/simba.gif)
 
 ## Background
 Hakuna Mañana is a Lion King themed platform jumper game. You play as Simba, jumping without any worries.
