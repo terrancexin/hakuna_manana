@@ -16,7 +16,10 @@
         <canvas id='simba-canvas' width="450" height="370">
           Simba not supported by this browser.
         </canvas>
-        <img class='mute' src='assets/images/mute.png' alt='instruction_mute' />
+
+        <input type='text' id='player-name' placeholder="Enter your name"/>
+        <img id='mute' src='assets/images/mute.png' alt='instruction_mute' />
+
     </div>
 
     <div id="myModal" class="modal">
@@ -26,6 +29,8 @@
       </div>
     </div>
 
+    <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase-database.js"></script>
     <script src='./lib/bundle.js'></script>
   </body>
 

@@ -69,7 +69,7 @@ footer {
   cursor: pointer;
 }
 
-.mute {
+#mute {
   width: 30px;
   border-radius: 5px;
   padding: 5px;
@@ -120,6 +120,35 @@ footer {
   cursor: pointer;
 }
 
+#player-name {
+  font-size: 18px;
+  border-radius: 3px;
+  padding: 5px;
+  text-align: center;
+}
+
+.bottom-canvas {
+  /*display: flex;*/
+
+}
+
+::-webkit-input-placeholder {
+   font-style: italic;
+	 font-size: 18px;
+}
+:-moz-placeholder {
+   font-style: italic;
+	 font-size: 18px;
+}
+::-moz-placeholder {
+   font-style: italic;
+	 font-size: 18px;
+}
+:-ms-input-placeholder {
+   font-style: italic;
+	 font-size: 18px;
+}
+
 
 @media (max-width: 400px) {
   #simba-canvas {
@@ -131,7 +160,7 @@ footer {
     margin: 40px 0;
   }
 
-  .mute {
+  #mute {
     width: 25px;
     margin-top: 40px;
   }
