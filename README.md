@@ -1,4 +1,4 @@
-# Hakuna Mañana ([LIVE](https://www.terrancexin.com/hakuna_manana/))
+# Hakuna Mañana ([LIVE](https://simbaa.netlify.app/))
 
 ##### "Hakuna" in Swahili means "there is not". "Mañana" in Spanish means "tomorrow".
 #### There is no tomorrow, play today!
